@@ -10,7 +10,13 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "db",
+      "database_id": "7fd351e4-d08f-4158-8851-a11eb4984e04"
+    }]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
